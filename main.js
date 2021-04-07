@@ -36,7 +36,7 @@ _.find = (array, predicate) => {
 //able to use math.random, per Evan!
 _.random = (min, max) => {
   let output = Math.random(max)
-  if (output > min){
+  if (output < min){
     output = Math.random(max)
   }
   return output
@@ -58,7 +58,6 @@ _.range = (start, stop, step) => {
 }
 
 
-_.extend(destination, *sources)
 
 
 export default _
