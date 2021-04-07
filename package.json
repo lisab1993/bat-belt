@@ -12,5 +12,9 @@
     "esm": "^3.2.25",
     "riteway": "^6.1.2",
     "tap-nirvana": "^1.1.0"
+  },
+  "dependencies": {
+    "install-peers": "^1.0.3",
+    "react": "^16.13.1"
   }
 }
